@@ -1,8 +1,23 @@
 /* Your code here */
+body {
+  margin: 0;
+}
+
+.header-nav__container {
+  display: flex;
+  background-color: rgb(48, 132, 189);
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
+
+#alerts {
+  background-color: #E85823;
+}
 
 /* Supplied CSS follows. */
-.header-nav__group{
+.header-nav__group {
   display: flex;
+
 }
 
 .header-nav__button {
@@ -13,7 +28,7 @@
   text-decoration: none;
   align-items: center;
   text-align: center;
-  background-color: hsla(0,0%,100%,.3);
+  background-color: hsla(0, 0%, 100%, .3);
   box-shadow: none;
   color: #fff;
   line-height: 32px;
@@ -22,9 +37,13 @@
   white-space: nowrap;
   padding: 8px;
   height: 20px;
+  /*
+  background-color: rgb(61, 146, 203);
+  */
+
 }
 
-.header-nav__button#search > input {
+.header-nav__button#search>input {
   border-style: none;
   border: none;
   background-image: none;
@@ -32,9 +51,10 @@
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+
 }
 
-.header-nav__button > .boards-label {
+.header-nav__button>.boards-label {
   font-weight: 700;
   padding-left: 4px;
 }
@@ -46,8 +66,10 @@
   position: absolute;
   transform: translateX(-50%);
   top: 5px;
+  background-color: rgb(48, 132, 189);
 }
 
- .header-nav__button > i{
+.header-nav__button>i {
   width: 24px;
+
 }
